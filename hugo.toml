@@ -1,0 +1,9 @@
+baseURL = 'http://lapizote.github.io/'
+languageCode = 'en-us'
+title = "Lapizote's Space"
+theme = 'lappyMini'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

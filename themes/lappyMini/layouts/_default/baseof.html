@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<head>
+  {{ partial "head.html" . }}
+
+  {{ if .IsHome }}
+    {{- with resources.Get "css/homepage.css" }}
+    {{- if eq hugo.Environment "development" }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{- else }}
+      {{- with . | minify | fingerprint }}
+        <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+      {{- end }}
+    {{- end }}
+    {{- end }}
+  {{ end }}
+</head>
+<body>
+  <header>
+    {{ partial "header.html" . }}
+  </header>
+  <main class="page-content">
+    {{ block "main" . }}{{ end }}
+     <!--{{ .Kind }}-->
+  </main>
+  {{ if eq .Title "About Me"}}
+  <footer class="copyright-sticky">
+  {{ else }}
+  <footer>
+  {{ end }}
+    {{ partial "footer.html" . }}
+  </footer>
+</body>
+</html>

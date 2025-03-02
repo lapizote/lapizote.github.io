@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/lapizote-personal/</loc>
+    <lastmod>2025-01-05T22:58:01+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/lapizote-personal/about-me/</loc>
+    <lastmod>2025-01-05T22:58:01+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/lapizote-personal/blog/</loc>
+    <lastmod>2025-01-05T00:00:50+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/lapizote-personal/blog/05-01-2025/</loc>
+    <lastmod>2025-01-05T00:00:50+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/lapizote-personal/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/lapizote-personal/tags/</loc>
+  </url>
+</urlset>

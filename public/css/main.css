@@ -1,0 +1,52 @@
+body {
+    color: #222;
+    font-family: 'Open Sans';
+    word-wrap: break-word;
+    line-height: 1.5;
+    margin: 1rem;
+    display: grid;
+    place-items: center;
+    background-color: #efefef;
+}
+
+.page-content {
+    display:grid;
+    width: 50vw;
+}
+
+header {
+    margin-bottom: 1rem;
+}
+
+footer {
+    margin-top: 1rem;
+}
+
+a {
+    color: #404040;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5c5c5c;
+}
+
+.navbar-main {
+    text-align: center;
+    font-weight: bold;
+    font-size: 17.5pt;
+    display: flexbox;
+    place-items: center;
+    width: 100%;
+    margin-top: 2vh;
+}
+
+a.navbar-links {
+    margin: 1vw;
+}
+
+.copyright-sticky {
+    position: sticky;
+    bottom: 0;
+    height: 100%;
+}

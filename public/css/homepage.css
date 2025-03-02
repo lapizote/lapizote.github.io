@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+}
+a {
+    font-size: 1.5em;
+}
+
+
+.noto-sans-tagalog-regular {
+    font-family: "Noto Sans Tagalog", serif;
+    white-space: nowrap;
+}
