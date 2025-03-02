@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Lapizote&#39;s Space</title>
-    <link>http://localhost:1313/lapizote-personal/blog/</link>
-    <description>Recent content in Blogs on Lapizote&#39;s Space</description>
+    <title>Blog on Lapizote&#39;s Space</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blog on Lapizote&#39;s Space</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Jan 2025 00:00:50 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/lapizote-personal/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Mar 2025 21:28:46 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Changed my github username.</title>
+      <link>http://localhost:1313/blog/02-03-2025/</link>
+      <pubDate>Sun, 02 Mar 2025 21:28:46 +0800</pubDate>
+      <guid>http://localhost:1313/blog/02-03-2025/</guid>
+      <description>&lt;p&gt;Hi guys i decided to change my github username to lapizote so that i can actually do a personal githubs page instead of a project page.&lt;/p&gt;&#xA;&lt;p&gt;Yipee!&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hello, World!</title>
-      <link>http://localhost:1313/lapizote-personal/blog/05-01-2025/</link>
+      <link>http://localhost:1313/blog/05-01-2025/</link>
       <pubDate>Sun, 05 Jan 2025 00:00:50 +0800</pubDate>
-      <guid>http://localhost:1313/lapizote-personal/blog/05-01-2025/</guid>
+      <guid>http://localhost:1313/blog/05-01-2025/</guid>
       <description>&lt;p&gt;Today, I wanted to create my own personal website.&lt;/p&gt;&#xA;&lt;p&gt;I used Hugo since it seemed like a cool static site generator in a language that I have not tried yet (Go).&lt;/p&gt;&#xA;&lt;p&gt;I was trying to change the config file (hugo.toml), but everytime I changed the title:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;baseURL&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;https://lapizote.mooo.com/&amp;#39;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;languageCode&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;en-us&amp;#39;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Lapizote&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;s&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Space&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;theme = &amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;lappyMini&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&amp;#39;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I would get an error whenever I would try to build it. Notice the issue yet? The markdown engine should&amp;rsquo;ve probably pointed out the issue already. VSCode did not point it out.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -1,0 +1,9 @@
+{{- range .Data.Pages.GroupByDate "2006" -}}
+  {{- range .RegularPages -}}
+    <h3>
+      <a href = "{{- .RelPermalink -}}">
+        {{- .Title -}}
+      </a>
+    </h3>
+  {{- end -}}
+{{- end -}}
